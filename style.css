@@ -81,14 +81,16 @@ body {
   button {
     color: white;
     font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
   
     background: #69B99D;
     border: 0;
-    padding: 0 50px 30px;
-  
+    padding: 14px 32px 15px;
+
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   
     border-radius: 4px;
   
