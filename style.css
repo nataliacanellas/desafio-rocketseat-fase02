@@ -48,6 +48,12 @@ body {
   ul {
     font-family: "Mulish", sans-serif;
   }
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   
   h1 {
     font-size: 49px;
@@ -107,7 +113,8 @@ body {
   }
   
   #balls {
-      bottom: 0;
-      right: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
   }
   
